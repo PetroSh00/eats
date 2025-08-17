@@ -1,0 +1,35 @@
+:root {
+    --text-color: #252B42;
+    --light-text-color: #FFFFFF;
+    --snd-text-color: #737373;
+    --dark-bg-color: ;
+    --light-bg-color: ;
+    --white: #FFFFFF;
+    --orange: #FA4A0C;
+    --l-orange: #E78200;
+    --black: #000000;
+    --blue: #009CBF;
+}
+/* general styles */
+body {
+    font-family: "Montserrat" serif;
+    color: var(--text-color)
+}
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0;
+    outline: auto;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+.flex {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
